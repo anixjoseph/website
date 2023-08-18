@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title> website </title>
+        
+
+        <style>
+            body {background-color: rgb(174, 174, 56);}
+            table{border-collapse:collapse;}
+            tr,td,th{border: 2px solid rgb(49, 19, 141)}
+            th{font:bold; color:blueviolet}
+            p {font-family: verdana; font-size: 112%;}
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color :blueviolet"> BBLUNT HAIR SALOON AND SPA </h1>
+        
+        <h2> ANY HAIR CUT OR COLOUR AVAILABLE ! </h2>
+        
+
+        <br>
+        <img src="https://i0.wp.com/therighthairstyles.com/wp-content/uploads/2015/08/10-brown-hair-with-chocolate-highlights.jpg?fit=1043%2C1349&ssl=1" style="width:300px;">
+        <a href="https://www.bblunt.com"> BBLUNT SALOON SHOP </a>
+
+        <h3 style="color :darkcyan;"> STARTING AT JUST $20 </h3>
+        <h4> HAIRCUT + HAIR COLOUR COMBO FOR JUST 30$ !</h4>
+        <table>
+            <caption style= "color:aquamarine;";>OPTIONS</caption>
+
+            <tr>
+                <th>SERVICE </th>
+                <th>PRICE </th>
+            </tr>
+
+            <tr>
+                <td> HAIR COLOUR </td>
+                <td>20$</td>
+            </tr>
+            <p>Please choose YOUR CHOICE of COLOR :</p>
+
+            <form>
+                <input type="radio" id="b" name="COLOR" value="BALAYAGE">
+                <label for="b">BALAYAGE </label><br>
+                <input type="radio" id="s" name="COLOR" value="STREAKS">
+                <label for="s">STREAKS</label><br>
+                <input type="radio" id="fl" name="COLOR" value=" FULL LENGTH ">
+                <label for="fl">FULL LENGTH </label>
+              </form>
+            <tr>
+                <td>HAIR CUT</td>
+                <td>25$</td>
+            </tr>
+            <p>Please choose YOUR CHOICE of HAIR CUT :</p>
+
+            <form>
+                <input type="radio" id="ba" name="cut" value="wolf cut">
+                <label for="b">BALAYAGE </label><br>
+                <input type="radio" id="bc" name="cut" value="bob cut">
+                <label for="bc">BOB CUT</label><br>
+                <input type="radio" id="ff" name="cut" value=" face framing layers  ">
+                <label for="ff">FRACE FRAMING LAYERS </label>
+              </form>
+        </table>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <input type="submit" value="Submit">
+          </form>
+          
+         
+    </body>
+</html>
+
+
